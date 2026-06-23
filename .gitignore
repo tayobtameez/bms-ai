@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+.env
+
+# Data (large files — use Git LFS or keep local)
+data/raw/*.csv
+data/raw/*.mat
+models/*.pt
+models/*.pkl
+
+# Notebooks
+.ipynb_checkpoints/
+
+# IDE
+.vscode/settings.json
+.idea/
